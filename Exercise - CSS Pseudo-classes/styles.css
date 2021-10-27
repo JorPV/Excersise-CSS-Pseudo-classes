@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+menu {
+    padding: 0px;
+}
+
+.container-menu {
+    background-color: darkblue;
+}
+
+li {
+    margin:30px 100px 30px 0px;
+    font-size: 20px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.currentPage {
+    background-color: gray;
+}
+
+ul:first-child {
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+a:hover {
+    background-color: lightblue;
+}
+
+#first-link:hover {
+    color:lightblue; 
+    font-weight: bold;
+}
+
+#second-link:active {
+    color:red; 
+    font-style: italic;
+}
+
+#third-link:visited {
+    color:yellow; 
+}
+.search-bar {
+    display: inline;
+}
+
+input {
+    font-size: 20px;
+}
+
+input:focus {
+    border: 5px solid aqua;
+    color:green;
+}
